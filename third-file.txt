@@ -1,0 +1,5 @@
+#!/bin/bash
+
+#This program is to find the number of words in a file and the frequency of them
+
+
