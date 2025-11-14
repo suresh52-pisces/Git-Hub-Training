@@ -1,0 +1,8 @@
+# Operating System specific files
+.DS_Store # macOS specific file
+
+#Keys and provider file.
+providers.tf
+terraform.tfstate
+terraform.tfstate.backup
+.terraform/*
