@@ -15,6 +15,11 @@ terraform {
   instance_type = "t2.micro"
 }*/
 
+variable "instance_details"{
+  description = "Instance type details"
+  type = string
+
+}
 data "aws_key_pair" "My-KeyPair" {
   key_name = "Aws-Cli-KP"
 }
