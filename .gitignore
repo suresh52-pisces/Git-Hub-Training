@@ -3,7 +3,6 @@
 
 #Keys and provider file.
 # Terraform
-*.tfstate
 *.tfstate.*
 #.terraform/
 crash.log
@@ -17,7 +16,7 @@ terraform.tfvars.json
 .idea/
 *.swp
 
-.terraform.lock.hcl
+*.lock.hcl
 providers.tf
 terraform.tfstate
 terraform.tfstate.backup
