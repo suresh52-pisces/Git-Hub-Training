@@ -16,6 +16,7 @@ terraform.tfvars.json
 .idea/
 *.swp
 
+*.out
 *.*lock.hcl
 providers.tf
 terraform.tfstate
